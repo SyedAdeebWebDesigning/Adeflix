@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Macondo&family=Satisfy&family=Water+Brush&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer base {
+    body { 
+        @apply bg-[#151515] text-gray-300
+    }
+}
+.logo-adeflix {
+  font-family: 'Bebas Neue';
+  color: #db202c;
+  letter-spacing: 0.1rem;
+  transform-origin: bottom;
+}
+
